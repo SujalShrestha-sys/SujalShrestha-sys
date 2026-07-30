@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="58" viewBox="0 0 1200 58" role="img" aria-labelledby="title desc">
+  <title id="title">Animated system signal bar</title>
+  <desc id="desc">A purple, blue, and red animated divider.</desc>
+  <defs>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset=".48" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#ef4444"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-300%" width="140%" height="700%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="track"><rect x="25" y="27" width="1150" height="4" rx="2"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="58" rx="12" fill="#070510"/>
+  <path d="M25 29h220l15-15 22 30 18-15h180l12-9 12 18 16-9h220l14-17 24 34 17-17h380"
+        fill="none" stroke="url(#signal)" stroke-width="2" stroke-opacity=".58"/>
+  <rect x="25" y="27" width="1150" height="4" rx="2" fill="#171229"/>
+  <g clip-path="url(#track)" filter="url(#glow)">
+    <rect x="-230" y="25" width="230" height="8" rx="4" fill="url(#signal)">
+      <animate attributeName="x" values="-230;1200" dur="3.4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <circle cx="25" cy="29" r="4" fill="#8b5cf6"/>
+  <circle cx="1175" cy="29" r="4" fill="#ef4444"/>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-labelledby="title desc">
+  <title id="title">Sujal's developer terminal</title>
+  <desc id="desc">Animated terminal window showing developer information.</desc>
+  <defs>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset=".52" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#ef4444"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="270" rx="18" fill="#070510"/>
+  <rect x="1.5" y="1.5" width="1197" height="267" rx="17" fill="none" stroke="url(#frame)" stroke-width="3"/>
+  <rect x="2" y="2" width="1196" height="46" rx="16" fill="#100b20"/>
+  <path d="M2 31v16h1196V31" fill="#100b20"/>
+  <circle cx="28" cy="25" r="7" fill="#ef4444"/>
+  <circle cx="52" cy="25" r="7" fill="#f59e0b"/>
+  <circle cx="76" cy="25" r="7" fill="#22c55e"/>
+  <text x="600" y="31" text-anchor="middle" fill="#64748b" font-family="Consolas, monospace" font-size="14">sujal@github: ~/profile</text>
+
+  <g font-family="Consolas, 'Courier New', monospace" font-size="19">
+    <text x="42" y="84" fill="#a78bfa">❯</text>
+    <text x="70" y="84" fill="#e2e8f0">whoami</text>
+    <text x="70" y="116" fill="#60a5fa">Sujal Shrestha — full-stack engineer crafting reliable digital systems.</text>
+
+    <text x="42" y="154" fill="#a78bfa">❯</text>
+    <text x="70" y="154" fill="#e2e8f0">cat focus.txt</text>
+    <text x="70" y="186" fill="#f87171">scalable products  /  clean architecture  /  thoughtful interfaces</text>
+
+    <text x="42" y="224" fill="#a78bfa">❯</text>
+    <text x="70" y="224" fill="#e2e8f0">git status</text>
+    <text x="210" y="224" fill="#22c55e">● always shipping</text>
+    <rect x="411" y="207" width="10" height="22" fill="#60a5fa" filter="url(#softGlow)">
+      <animate attributeName="opacity" values="0;1;0" dur=".9s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

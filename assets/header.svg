@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Sujal Shrestha — Full-Stack Engineer</title>
+  <desc id="desc">Animated cyberpunk profile banner in purple, blue, and red.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05030d"/>
+      <stop offset=".52" stop-color="#0b0620"/>
+      <stop offset="1" stop-color="#050816"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6">
+        <animate attributeName="stop-color" values="#8b5cf6;#2563eb;#ef4444;#8b5cf6" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset=".5" stop-color="#2563eb">
+        <animate attributeName="stop-color" values="#2563eb;#ef4444;#8b5cf6;#2563eb" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#ef4444">
+        <animate attributeName="stop-color" values="#ef4444;#8b5cf6;#2563eb;#ef4444" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <radialGradient id="purpleGlow">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blueGlow">
+      <stop offset="0" stop-color="#2563eb" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#2563eb" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="redGlow">
+      <stop offset="0" stop-color="#ef4444" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#ef4444" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#8b5cf6" stroke-opacity=".09" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="terminalClip">
+      <rect x="105" y="239" width="980" height="30" rx="4"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="360" rx="22" fill="url(#background)"/>
+  <rect width="1200" height="360" rx="22" fill="url(#grid)"/>
+
+  <circle cx="145" cy="70" r="260" fill="url(#purpleGlow)">
+    <animate attributeName="r" values="230;290;230" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1020" cy="80" r="250" fill="url(#blueGlow)">
+    <animate attributeName="cx" values="1020;940;1020" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1020" cy="320" r="210" fill="url(#redGlow)">
+    <animate attributeName="cy" values="320;250;320" dur="9s" repeatCount="indefinite"/>
+  </circle>
+
+  <path d="M0 70H170l22-22h180l18 18h240" fill="none" stroke="#8b5cf6" stroke-opacity=".45" stroke-width="2">
+    <animate attributeName="stroke-opacity" values=".2;.8;.2" dur="3s" repeatCount="indefinite"/>
+  </path>
+  <path d="M1200 290h-180l-22 22H818l-18-18H560" fill="none" stroke="#ef4444" stroke-opacity=".4" stroke-width="2">
+    <animate attributeName="stroke-opacity" values=".7;.15;.7" dur="4s" repeatCount="indefinite"/>
+  </path>
+
+  <g font-family="'Segoe UI', Arial, sans-serif">
+    <text x="600" y="104" text-anchor="middle" fill="#a78bfa" font-family="Consolas, monospace" font-size="16" letter-spacing="5">
+      &lt; HELLO, WORLD /&gt;
+      <animate attributeName="fill" values="#a78bfa;#60a5fa;#f87171;#a78bfa" dur="8s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="600" y="174" text-anchor="middle" fill="#f8fafc" font-size="54" font-weight="800" letter-spacing="7" filter="url(#glow)">
+      SUJAL SHRESTHA
+    </text>
+
+    <rect x="325" y="197" width="550" height="2" fill="url(#neon)" rx="1">
+      <animate attributeName="width" values="80;550;80" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="560;325;560" dur="5s" repeatCount="indefinite"/>
+    </rect>
+
+    <g clip-path="url(#terminalClip)" font-family="Consolas, 'Courier New', monospace" font-size="18">
+      <text x="600" y="260" text-anchor="middle" fill="#cbd5e1">
+        FULL-STACK ENGINEER  •  SYSTEM BUILDER  •  PROBLEM SOLVER
+      </text>
+    </g>
+
+    <g transform="translate(445 294)">
+      <circle cx="0" cy="0" r="4" fill="#8b5cf6">
+        <animate attributeName="opacity" values=".2;1;.2" dur="1.4s" repeatCount="indefinite"/>
+      </circle>
+      <text x="15" y="6" fill="#94a3b8" font-family="Consolas, monospace" font-size="15">STATUS: BUILDING THE FUTURE</text>
+      <rect x="293" y="-12" width="9" height="19" fill="#60a5fa">
+        <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <rect x="1.5" y="1.5" width="1197" height="357" rx="21" fill="none" stroke="url(#neon)" stroke-width="3"/>
+  <path d="M30 22h55M22 30v55M1170 338h-55M1178 330v-55" stroke="url(#neon)" stroke-width="3" filter="url(#glow)"/>
+</svg>
