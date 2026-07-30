@@ -28,7 +28,7 @@
 ## `> system.profile`
 
 ```yaml
-name: Sujal Shrestha
+name: SUJAL SHRESTHA
 role: Full-Stack Developer
 mission: Learn continuously and build useful, reliable software
 current_focus:
@@ -68,9 +68,6 @@ I am a full-stack developer committed to continuous learning and deliberate grow
   <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SujalShrestha-sys&theme=github_dark" alt="Live GitHub contribution summary" />
 
 </div>
-
-> [!NOTE]
-> Language cards summarize public repository activity and do not represent a proficiency ranking.
 
 ## `> contribution.stream`
 
