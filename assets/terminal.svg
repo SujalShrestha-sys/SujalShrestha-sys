@@ -25,16 +25,16 @@
   <g font-family="Consolas, 'Courier New', monospace" font-size="19">
     <text x="42" y="84" fill="#a78bfa">❯</text>
     <text x="70" y="84" fill="#e2e8f0">whoami</text>
-    <text x="70" y="116" fill="#60a5fa">Sujal Shrestha — full-stack engineer crafting reliable digital systems.</text>
+    <text x="70" y="116" fill="#60a5fa">Sujal Shrestha — full-stack developer building thoughtful digital products.</text>
 
     <text x="42" y="154" fill="#a78bfa">❯</text>
     <text x="70" y="154" fill="#e2e8f0">cat focus.txt</text>
-    <text x="70" y="186" fill="#f87171">scalable products  /  clean architecture  /  thoughtful interfaces</text>
+    <text x="70" y="186" fill="#f87171">learning continuously  /  strengthening my craft  /  growing through practice</text>
 
     <text x="42" y="224" fill="#a78bfa">❯</text>
     <text x="70" y="224" fill="#e2e8f0">git status</text>
-    <text x="210" y="224" fill="#22c55e">● always shipping</text>
-    <rect x="411" y="207" width="10" height="22" fill="#60a5fa" filter="url(#softGlow)">
+    <text x="210" y="224" fill="#22c55e">● learning • building • improving</text>
+    <rect x="551" y="207" width="10" height="22" fill="#60a5fa" filter="url(#softGlow)">
       <animate attributeName="opacity" values="0;1;0" dur=".9s" repeatCount="indefinite"/>
     </rect>
   </g>

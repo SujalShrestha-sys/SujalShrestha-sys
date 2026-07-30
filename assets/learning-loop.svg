@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">The build, learn, and evolve loop</title>
+  <desc id="desc">An animated illustration of writing code rigorously, learning continuously, and growing through deliberate practice.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070510"/>
+      <stop offset=".5" stop-color="#0c0820"/>
+      <stop offset="1" stop-color="#050a18"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset=".5" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#ef4444"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#8b5cf6" stroke-opacity=".06"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="390" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="390" rx="20" fill="url(#grid)"/>
+  <rect x="1.5" y="1.5" width="1197" height="387" rx="19" fill="none" stroke="url(#flow)" stroke-width="3"/>
+
+  <g font-family="'Segoe UI', Arial, sans-serif">
+    <text x="600" y="51" text-anchor="middle" fill="#f8fafc" font-size="23" font-weight="700" letter-spacing="4">BUILD  •  LEARN  •  EVOLVE</text>
+    <text x="600" y="78" text-anchor="middle" fill="#64748b" font-family="Consolas, monospace" font-size="14">turning disciplined practice into better software, one iteration at a time</text>
+  </g>
+
+  <!-- Flow path -->
+  <path d="M300 214C350 214 357 165 405 165H460C510 165 515 214 565 214H635C685 214 690 165 740 165H795C843 165 850 214 900 214"
+        fill="none" stroke="#1e293b" stroke-width="8" stroke-linecap="round"/>
+  <path d="M300 214C350 214 357 165 405 165H460C510 165 515 214 565 214H635C685 214 690 165 740 165H795C843 165 850 214 900 214"
+        fill="none" stroke="url(#flow)" stroke-width="3" stroke-linecap="round" stroke-dasharray="18 16" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" values="68;0" dur="2.2s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Code panel -->
+  <g transform="translate(65 112)">
+    <rect width="250" height="205" rx="14" fill="#090713" stroke="#8b5cf6" stroke-opacity=".65"/>
+    <rect width="250" height="36" rx="14" fill="#141024"/>
+    <path d="M0 23v13h250V23" fill="#141024"/>
+    <circle cx="18" cy="18" r="4" fill="#ef4444"/>
+    <circle cx="34" cy="18" r="4" fill="#f59e0b"/>
+    <circle cx="50" cy="18" r="4" fill="#22c55e"/>
+    <text x="125" y="23" text-anchor="middle" fill="#64748b" font-family="Consolas, monospace" font-size="10">craft.ts</text>
+    <g font-family="Consolas, monospace" font-size="12">
+      <text x="17" y="63" fill="#64748b">01</text><text x="42" y="63" fill="#c084fc">const</text><text x="80" y="63" fill="#e2e8f0"> craft =</text><text x="143" y="63" fill="#60a5fa"> async</text><text x="188" y="63" fill="#e2e8f0"> () =&gt; {</text>
+      <text x="17" y="89" fill="#64748b">02</text><text x="58" y="89" fill="#f87171">understand</text><text x="130" y="89" fill="#e2e8f0">();</text>
+      <text x="17" y="115" fill="#64748b">03</text><text x="58" y="115" fill="#60a5fa">build</text><text x="95" y="115" fill="#e2e8f0">();</text>
+      <text x="17" y="141" fill="#64748b">04</text><text x="58" y="141" fill="#a78bfa">review</text><text x="103" y="141" fill="#e2e8f0">();</text>
+      <text x="17" y="167" fill="#64748b">05</text><text x="58" y="167" fill="#22c55e">improve</text><text x="110" y="167" fill="#e2e8f0">();</text>
+      <text x="17" y="193" fill="#64748b">06</text><text x="42" y="193" fill="#e2e8f0">};</text>
+    </g>
+    <rect x="138" y="177" width="7" height="18" fill="#60a5fa">
+      <animate attributeName="opacity" values="0;1;0" dur=".9s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Learning core -->
+  <g transform="translate(475 110)">
+    <circle cx="125" cy="103" r="94" fill="#0b0a1b" stroke="#3b82f6" stroke-opacity=".7"/>
+    <circle cx="125" cy="103" r="76" fill="none" stroke="#2563eb" stroke-opacity=".22" stroke-dasharray="7 9">
+      <animateTransform attributeName="transform" type="rotate" from="0 125 103" to="360 125 103" dur="18s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M75 77q25-19 50 0v70q-25-19-50 0zm50 0q25-19 50 0v70q-25-19-50 0z" fill="none" stroke="#60a5fa" stroke-width="3" stroke-linejoin="round" filter="url(#glow)"/>
+    <path d="M125 77v70" stroke="#60a5fa" stroke-width="2"/>
+    <circle cx="125" cy="43" r="5" fill="#a78bfa">
+      <animate attributeName="cy" values="43;33;43" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".35;1;.35" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="72" cy="56" r="4" fill="#3b82f6">
+      <animate attributeName="cx" values="72;62;72" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="178" cy="56" r="4" fill="#ef4444">
+      <animate attributeName="cx" values="178;188;178" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <text x="125" y="224" text-anchor="middle" fill="#94a3b8" font-family="Consolas, monospace" font-size="13">CONTINUOUS LEARNING</text>
+  </g>
+
+  <!-- Growth panel -->
+  <g transform="translate(885 112)">
+    <rect width="250" height="205" rx="14" fill="#090713" stroke="#ef4444" stroke-opacity=".6"/>
+    <text x="125" y="31" text-anchor="middle" fill="#94a3b8" font-family="Consolas, monospace" font-size="11">GROWTH / COMPOUNDING</text>
+    <path d="M27 171H224M32 171V50" stroke="#334155" stroke-width="2"/>
+    <path d="M45 153L83 137l34-23 36 5 53-66" fill="none" stroke="url(#flow)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" stroke-dasharray="260" stroke-dashoffset="260">
+      <animate attributeName="stroke-dashoffset" values="260;0;0" keyTimes="0;.7;1" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <g fill="#070510" stroke-width="3">
+      <circle cx="45" cy="153" r="6" stroke="#8b5cf6"/>
+      <circle cx="83" cy="137" r="6" stroke="#7c6cf2"/>
+      <circle cx="117" cy="114" r="6" stroke="#596fee"/>
+      <circle cx="153" cy="119" r="6" stroke="#3b82f6"/>
+      <circle cx="206" cy="53" r="7" stroke="#ef4444">
+        <animate attributeName="r" values="5;9;5" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <text x="48" y="191" fill="#64748b" font-family="Consolas, monospace" font-size="10">practice</text>
+    <text x="174" y="191" fill="#64748b" font-family="Consolas, monospace" font-size="10">mastery</text>
+  </g>
+
+  <g font-family="Consolas, monospace" font-size="13" font-weight="600">
+    <text x="190" y="352" text-anchor="middle" fill="#a78bfa">WRITE WITH RIGOUR</text>
+    <text x="600" y="352" text-anchor="middle" fill="#60a5fa">STUDY WITH CURIOSITY</text>
+    <text x="1010" y="352" text-anchor="middle" fill="#f87171">GROW WITH PURPOSE</text>
+  </g>
+</svg>
