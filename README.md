@@ -5,10 +5,6 @@
 
 <div align="center">
 
-  <img src="./assets/header.svg" width="100%" alt="Sujal Shrestha — Full-Stack Developer animated banner" />
-
-  <br />
-
   <a href="https://github.com/SujalShrestha-sys">
     <img src="https://komarev.com/ghpvc/?username=SujalShrestha-sys&label=PROFILE+SIGNALS&color=7c3aed&style=for-the-badge" alt="Profile views" />
   </a>
