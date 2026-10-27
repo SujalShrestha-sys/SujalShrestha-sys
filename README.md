@@ -124,10 +124,6 @@ I am a full-stack developer committed to continuous learning and deliberate grow
 
 <div align="center">
 
-  <img src="./assets/footer.svg" width="100%" alt="Let's build something meaningful" />
-
-  <br /><br />
-
   <a href="https://github.com/SujalShrestha-sys">
     <img src="https://img.shields.io/badge/GitHub-Follow-8b5cf6?style=for-the-badge&logo=github&logoColor=white&labelColor=090511" alt="Follow on GitHub" />
   </a>
