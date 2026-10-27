@@ -120,10 +120,6 @@ I am a full-stack developer committed to continuous learning and deliberate grow
 
 </div>
 
-## `> build.learn.evolve`
-
-<img src="./assets/learning-loop.svg" width="100%" alt="Animated build, learn, and evolve development loop" />
-
 ## `> establish.connection`
 
 <div align="center">
