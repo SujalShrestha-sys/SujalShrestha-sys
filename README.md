@@ -14,8 +14,6 @@ current_focus:
 operating_mode: Learn deeply. Build carefully. Improve consistently.
 ```
 
-<img src="./assets/signal-bar.svg" width="100%" alt="Animated neon signal divider" />
-
 <br /><br />
 
 <div align="center">
@@ -31,6 +29,8 @@ operating_mode: Learn deeply. Build carefully. Improve consistently.
   </a>
 
 </div>
+
+<img src="./assets/signal-bar.svg" width="100%" alt="Animated neon signal divider" />
 
 ## `> tech.arsenal`
 
