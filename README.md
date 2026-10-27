@@ -1,19 +1,6 @@
 
 <img src="./assets/terminal.svg" width="100%" alt="Animated developer terminal" />
 
-## `> system.profile`
-
-```yaml
-name: SUJAL SHRESTHA
-role: Full-Stack Developer
-mission: Learn continuously and build useful, reliable software
-current_focus:
-  - Strengthening full-stack fundamentals
-  - Building practical end-to-end applications
-  - Growing through deliberate practice
-operating_mode: Learn deeply. Build carefully. Improve consistently.
-```
-
 <br /><br />
 
 <div align="center">
@@ -29,6 +16,19 @@ operating_mode: Learn deeply. Build carefully. Improve consistently.
   </a>
 
 </div>
+
+## `> system.profile`
+
+```yaml
+name: SUJAL SHRESTHA
+role: Full-Stack Developer
+mission: Learn continuously and build useful, reliable software
+current_focus:
+  - Strengthening full-stack fundamentals
+  - Building practical end-to-end applications
+  - Growing through deliberate practice
+operating_mode: Learn deeply. Build carefully. Improve consistently.
+```
 
 <img src="./assets/signal-bar.svg" width="100%" alt="Animated neon signal divider" />
 
