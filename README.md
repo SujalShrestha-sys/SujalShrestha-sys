@@ -1,8 +1,6 @@
 
 <img src="./assets/terminal.svg" width="100%" alt="Animated developer terminal" />
 
-<br /><br />
-
 <div align="center">
 
   <a href="https://github.com/SujalShrestha-sys">
