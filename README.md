@@ -1,23 +1,3 @@
-<!--
-  GitHub Profile README for Sujal Shrestha
-  Confirmed GitHub handle: SujalShrestha-sys
--->
-
-<div align="center">
-
-  <a href="https://github.com/SujalShrestha-sys">
-    <img src="https://komarev.com/ghpvc/?username=SujalShrestha-sys&label=PROFILE+SIGNALS&color=7c3aed&style=for-the-badge" alt="Profile views" />
-  </a>
-  <a href="https://github.com/SujalShrestha-sys?tab=followers">
-    <img src="https://img.shields.io/github/followers/SujalShrestha-sys?label=NETWORK&style=for-the-badge&logo=github&color=2563eb&labelColor=090511" alt="GitHub followers" />
-  </a>
-  <a href="https://github.com/SujalShrestha-sys?tab=repositories">
-    <img src="https://img.shields.io/badge/FOCUS-FULL--STACK-ef4444?style=for-the-badge&labelColor=090511" alt="Full-stack focus" />
-  </a>
-
-</div>
-
-<br />
 
 <img src="./assets/terminal.svg" width="100%" alt="Animated developer terminal" />
 
@@ -35,6 +15,22 @@ operating_mode: Learn deeply. Build carefully. Improve consistently.
 ```
 
 <img src="./assets/signal-bar.svg" width="100%" alt="Animated neon signal divider" />
+
+<br /><br />
+
+<div align="center">
+
+  <a href="https://github.com/SujalShrestha-sys">
+    <img src="https://komarev.com/ghpvc/?username=SujalShrestha-sys&label=PROFILE+SIGNALS&color=7c3aed&style=for-the-badge" alt="Profile views" />
+  </a>
+  <a href="https://github.com/SujalShrestha-sys?tab=followers">
+    <img src="https://img.shields.io/github/followers/SujalShrestha-sys?label=NETWORK&style=for-the-badge&logo=github&color=2563eb&labelColor=090511" alt="GitHub followers" />
+  </a>
+  <a href="https://github.com/SujalShrestha-sys?tab=repositories">
+    <img src="https://img.shields.io/badge/FOCUS-FULL--STACK-ef4444?style=for-the-badge&labelColor=090511" alt="Full-stack focus" />
+  </a>
+
+</div>
 
 ## `> tech.arsenal`
 
