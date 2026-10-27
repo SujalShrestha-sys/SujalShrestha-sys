@@ -38,8 +38,6 @@ current_focus:
 operating_mode: Learn deeply. Build carefully. Improve consistently.
 ```
 
-I am a full-stack developer committed to continuous learning and deliberate growth. Every project is an opportunity to strengthen my fundamentals, explore better approaches, and turn new knowledge into useful, maintainable software.
-
 <img src="./assets/signal-bar.svg" width="100%" alt="Animated neon signal divider" />
 
 ## `> tech.arsenal`
