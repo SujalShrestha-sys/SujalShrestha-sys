@@ -134,8 +134,6 @@ I am a full-stack developer committed to continuous learning and deliberate grow
     <img src="https://img.shields.io/badge/Collaborate-Issues-ef4444?style=for-the-badge&logo=github&logoColor=white&labelColor=090511" alt="Collaborate through GitHub issues" />
   </a>
 
-  <br /><br />
-
   <img src="./assets/signal-bar.svg" width="100%" alt="" />
 
   <sub>© Sujal Shrestha · Learning continuously, building deliberately, growing consistently.</sub>
